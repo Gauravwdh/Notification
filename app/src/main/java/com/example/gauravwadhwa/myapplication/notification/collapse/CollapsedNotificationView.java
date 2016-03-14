@@ -1,6 +1,7 @@
 package com.example.gauravwadhwa.myapplication.notification.collapse;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.support.v4.app.NotificationCompat;
 
 /**
@@ -12,7 +13,7 @@ public abstract class CollapsedNotificationView {
 
     protected final NotificationCompat.Builder builder;
 
-    public CollapsedNotificationView(Context context) {
+    public CollapsedNotificationView(@NonNull Context context) {
         builder = new NotificationCompat.Builder(context);
     }
 

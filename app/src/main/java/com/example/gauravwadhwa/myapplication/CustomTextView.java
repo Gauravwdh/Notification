@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.gauravwadhwa.myapplication.notification.collapse.DescriptionNotification;
+
 /**
  * Created by gauravwadhwa on 17/08/15.
  */

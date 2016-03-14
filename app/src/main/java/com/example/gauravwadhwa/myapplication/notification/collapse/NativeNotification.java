@@ -1,13 +1,14 @@
 package com.example.gauravwadhwa.myapplication.notification.collapse;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 
 /**
  * Created by gauravwadhwa on 09/03/16.
  */
 public class NativeNotification extends CollapsedNotificationView {
 
-    public NativeNotification(Context context) {
+    public NativeNotification(@NonNull Context context) {
         super(context);
     }
 

@@ -1,6 +1,7 @@
 package com.example.gauravwadhwa.myapplication.notification.collapse;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.widget.RemoteViews;
 
 import com.example.gauravwadhwa.myapplication.R;
@@ -14,7 +15,7 @@ public class TextNotification extends CollapsedNotificationView {
 
     private RemoteViews remoteViews;
 
-    public TextNotification(Context context) {
+    public TextNotification(@NonNull Context context) {
         super(context);
         remoteViews = new RemoteViews(context.getPackageName(), R.layout.small_text_notification);
         builder.setContent(remoteViews);
